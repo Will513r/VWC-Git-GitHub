@@ -2,10 +2,10 @@
 
 const express = require("express");
 const app = express();
-
+const ejs = require("ejs");
 const port = 3000;
 
-app.use(express.static("public"));
+
 
 // Set EJS as the view engine
 app.set("view engine", "ejs");
@@ -20,6 +20,13 @@ app.get("/", (req, res) => {
 app.get("/about", (req, res) => {
   res.render("about.ejs");
 });
+
+// Handle 404 - Page Not Found
+app.use((req, res, next) => {
+    res.status(404).send("Sorry, the page you're looking for does not exist.");
+});
+
+app.use(express.static("/public"));
 
 // Start the server
 app.listen(port, () => {
