@@ -1,0 +1,1 @@
+This repository is created for the sole purpose of learning how to use GitHub. The project will focus on understanding and implementing basic GitHub functionalities, such as creating repositories, branching, committing changes, and managing pull requests.
