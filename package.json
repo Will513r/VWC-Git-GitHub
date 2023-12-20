@@ -1,24 +1,17 @@
 {
-  "name": "vwc-git-github",
+  "name": "ejs-challenge",
   "version": "1.0.0",
-  "description": "Creating a EJS file to practice using node and ejs to complete projects in the VWC curriculum. ",
-  "main": "index.js",
+  "description": "",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/Will513r/VWC-Git-GitHub.git"
-  },
-  "author": "William Ray",
+  "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/Will513r/VWC-Git-GitHub/issues"
-  },
-  "homepage": "https://github.com/Will513r/VWC-Git-GitHub#readme",
   "dependencies": {
+    "body-parser": "^1.18.3",
     "ejs": "^3.1.9",
-    "express": "^4.18.2",
-    "node": "^21.2.0"
+    "express": "^4.16.3",
+    "lodash": "^4.17.11"
   }
 }

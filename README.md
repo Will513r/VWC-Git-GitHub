@@ -1,1 +1,5 @@
-This repository is created for the sole purpose of learning how to use GitHub. The project will focus on understanding and implementing basic GitHub functionalities, such as creating repositories, branching, committing changes, and managing pull requests.
+# MyBlog-Website
+
+This project is to test my understanding of what I have learned and may turn this into a real website to use a database. 
+
+to use please run ```npm install```   ```node app.js```
