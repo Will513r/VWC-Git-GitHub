@@ -3,7 +3,6 @@
 require("dotenv").config();
 console.log(`Database name is ${process.env.DB_NAME}`);
 
-
 const express = require("express");
 const bodyParser = require("body-parser");
 const ejs = require("ejs");
